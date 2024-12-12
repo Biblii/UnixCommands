@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #525355;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+}
+
+.table-container {
+   
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-left: 250px;
+}
+
+.commands-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-spacing: 0;
+}
+
+.commands-table th, .commands-table td {
+    /* border: 1px solid #782B61; */
+    padding: 10px;
+    text-align: left;
+    border:none;
+}
+
+.commands-table th {
+    background-color: #2c2129;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.commands-table td {
+    background-color:#dfc3a5;
+    color: #000000;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.commands-table tr:nth-child(even) {
+    background-color: #E4BA94;
+}
+.commands-table td:hover {
+    background-color:  #885b37; /* Change to any color you like on hover */
+    color: #000000; /* Optionally change text color on hover */
+    
+}
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distribute header and button */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px; /* Add spacing below */
+}
+
+
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #AD9378; /* Button color */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #2c2129; /* Darker color on hover */
+}

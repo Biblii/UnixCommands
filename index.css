@@ -1,0 +1,107 @@
+body {
+    background-color: #001524; /* Dark navy blue */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Make sure it covers the full viewport height */
+    display: flex; /* Enable flexbox for alignment */
+    align-items: center; /* Vertically center the container */
+}
+
+.container {
+    display: flex; /* Arrange elements in a row */
+    align-items: center; /* Align items vertically in the center */
+}
+.FirstBox {
+    background-color: transparent; /* Transparent background for blurred effect */
+    border: 0px solid #E4BA94; /* Set border width, style, and color */
+    border-radius: 10px; /* Rounded corners */
+    backdrop-filter: blur(4px); /* Apply blur effect */
+    width: 600px; /* Set width of the container */
+    height: 350px; /* Set height of the container */
+    margin-left: 380px; /* Add some space from the left edge */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow for effect */
+}
+
+
+.header{
+    
+    width: 450px; /* Set width of the container */
+    height: 70px; /* Set height of the container */
+    margin-left: 75px; /* Add some space from the left edge */
+    align-items: center ;
+    
+    text-align: center;
+}
+.header .text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; /* Use Google Font Poppins */
+    font-size: 35px; /* Adjust font size */
+    font-weight: 700; /* Make it bold (optional) */
+    color: #FFFFFF; /* Change text color */   
+    padding-top: 15px;
+}
+
+.options {
+    margin-top: 40px; /* Add spacing above the buttons */
+    display: flex; /* Enable flexbox for horizontal alignment */
+    flex-direction: column;
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically */
+    gap: 10px; /* Add spacing between buttons */
+   
+}
+
+.option-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#AD9686; /* Button background color */
+    color: #FFFFFF; /* Text color */
+    width: 300px;
+    height: 35px;
+    font-family: 'Poppins', sans-serif; /* Font styling */
+    font-size: 19px; /* Font size */
+    padding: 10px 20px; /* Padding for the buttons */
+    border: none; /* Remove border */
+    border-radius: 30px; /* Rounded corners */
+    margin: 10px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+    text-decoration: none;
+}
+
+.option-btn:hover {
+    background-color:#735C4E; /* Change color on hover */
+}
+
+
+
+body  {
+    background-image: url('background2.jpg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction:alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
